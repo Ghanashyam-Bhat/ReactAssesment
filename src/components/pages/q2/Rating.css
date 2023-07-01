@@ -1,0 +1,21 @@
+#rating {
+    display: inline-block;
+  }
+  
+  .star {
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .star-shape {
+    fill: black;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .rated,
+  .rated .star-shape {
+    fill: yellow;
+  }
+  

@@ -1,0 +1,23 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom right, green, yellow);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 10px;
+  }
+  
+  .card.selected {
+    background: linear-gradient(to bottom right, red, orange);
+  }
+  
